@@ -78,3 +78,19 @@ The goal is to log in as the admin user by exploiting an SQL Injection vulnerabi
 
 - **Burp Suite** (for intercepting and modifying HTTP requests)
 - **ProxyFoxy** (or any proxy configuration tool)
+
+---
+
+## Defense Against SQL Injection
+
+To prevent SQL injection attacks, developers should adopt the following practices:
+
+### Parameterized Statements
+- Use parameterized queries to separate SQL code from user input.
+- For example, in Python with SQLite:
+  ```python
+  query = "SELECT * FROM Users WHERE email=? AND password=?"
+  ```
+### Sanitized Input
+- Sanitize and validate user input to ensure it conforms to expected formats.
+- Reject or escape any malicious characters such as ', --, or ;.
