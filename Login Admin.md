@@ -78,18 +78,3 @@ The goal is to log in as the admin user by exploiting an SQL Injection vulnerabi
 
 - **Burp Suite** (for intercepting and modifying HTTP requests)
 - **ProxyFoxy** (or any proxy configuration tool)
-
----
-
-### Additional Notes
-
-- Always ensure you have explicit permission before attempting SQL Injection or any penetration testing techniques in real-world environments.
-- OWASP Juice Shop is a safe and legal platform designed to help you practice these skills responsibly.
-
----
-
-### Repository Info
-
-This walkthrough is part of a series documenting solutions to OWASP Juice Shop challenges. Stay tuned for more write-ups and learning resources!
-
----
